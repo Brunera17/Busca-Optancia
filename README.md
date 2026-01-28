@@ -80,9 +80,11 @@ pip install pandas requests openpyxl
   Coloque o arquivo entrada.xlsx na mesma pasta do script
 
   Execute o script:
-
-  python main.py
-
+  
+  ```
+  python consulta-cnpj.py
+  ```
+  
   Ao final, o arquivo saida.xlsx será criado automaticamente
 
 ---
