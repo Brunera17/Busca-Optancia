@@ -3,18 +3,13 @@ import requests
 import time
 import re
 
-# =========================
-# CONFIGURAÇÕES
-# =========================
+
 ARQUIVO_ENTRADA = "entrada.xlsx"
 ARQUIVO_SAIDA = "saida.xlsx"
 
-DELAY_BASE = 3        # delay inicial
-DELAY_MAX = 10        # delay máximo permitido
+DELAY_BASE = 3 
+DELAY_MAX = 10
 
-# =========================
-# FUNÇÕES AUXILIARES
-# =========================
 
 def padronizar_cnpj(cnpj):
     if pd.isna(cnpj):
@@ -68,7 +63,6 @@ def consultar_cnpj_com_backoff(cnpj):
                 delay_atual = min(delay_atual + 2, DELAY_MAX)
                 continue
 
-            # SUCESSO → reseta delay
             simples = dados.get("simples", {})
             simei = dados.get("simei", {})
 
@@ -83,11 +77,6 @@ def consultar_cnpj_com_backoff(cnpj):
             print(f"[ERRO DE REDE] {cnpj}: {e} | Esperando {delay_atual}s...")
             time.sleep(delay_atual)
             delay_atual = min(delay_atual + 2, DELAY_MAX)
-
-
-# =========================
-# PROCESSAMENTO PRINCIPAL
-# =========================
 
 def main():
     df = pd.read_excel(ARQUIVO_ENTRADA)
@@ -127,3 +116,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
