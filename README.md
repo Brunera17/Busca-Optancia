@@ -75,7 +75,7 @@ pip install pandas requests openpyxl
 ```
 
 ---
-##▶️ Como Executar
+## ▶️ Como Executar
 ---
   Coloque o arquivo entrada.xlsx na mesma pasta do script
 
@@ -86,7 +86,7 @@ pip install pandas requests openpyxl
   Ao final, o arquivo saida.xlsx será criado automaticamente
 
 ---
-##⚠️ Observações Importantes
+## ⚠️ Observações Importantes
 ---
   A API utilizada (ReceitaWS) possui limite de requisições
 
@@ -97,7 +97,7 @@ pip install pandas requests openpyxl
   Em caso de erro de rede ou API, o script tenta novamente
 
 ---
-##📈 Possíveis Melhorias Futuras
+## 📈 Possíveis Melhorias Futuras
 ---
   Suporte a API paga (maior volume de consultas)
 
@@ -108,6 +108,6 @@ pip install pandas requests openpyxl
   Paralelismo controlado
 
 ---
-##📄 Licença
+## 📄 Licença
 ---
   Projeto de uso livre para fins educacionais e profissionais.
