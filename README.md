@@ -60,7 +60,7 @@ Gerado automaticamente com o seguinte formato:
 ---
 
 ## 🛠️ Requisitos
-
+---
 - Python **3.8 ou superior**
 - Bibliotecas Python:
   - `pandas`
@@ -72,20 +72,21 @@ Gerado automaticamente com o seguinte formato:
 ```bash
 pip install pandas requests openpyxl
 ```
+
 ---
 ##▶️ Como Executar
-
+---
   Coloque o arquivo entrada.xlsx na mesma pasta do script
 
   Execute o script:
 
   python main.py
 
-
   Ao final, o arquivo saida.xlsx será criado automaticamente
+
 ---
 ##⚠️ Observações Importantes
-
+---
   A API utilizada (ReceitaWS) possui limite de requisições
 
   O script aplica atrasos automáticos para evitar bloqueios
@@ -93,9 +94,10 @@ pip install pandas requests openpyxl
   CNPJs inválidos são ignorados
 
   Em caso de erro de rede ou API, o script tenta novamente
+
 ---
 ##📈 Possíveis Melhorias Futuras
-
+---
   Suporte a API paga (maior volume de consultas)
 
   Interface gráfica
@@ -103,7 +105,8 @@ pip install pandas requests openpyxl
   Log em arquivo
 
   Paralelismo controlado
+
 ---
 ##📄 Licença
-
+---
   Projeto de uso livre para fins educacionais e profissionais.
