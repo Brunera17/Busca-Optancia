@@ -27,11 +27,12 @@ O script:
 ---
 
 ## 📂 Estrutura de Arquivos
+```
   📁 projeto
   ├── entrada.xlsx # Planilha com os CNPJs
   ├── saida.xlsx # Planilha gerada com os resultados
   └── main.py # Script principal
-
+```
 ---
 
 ## 📥 Arquivo de Entrada (`entrada.xlsx`)
@@ -60,7 +61,7 @@ Gerado automaticamente com o seguinte formato:
 ---
 
 ## 🛠️ Requisitos
----
+
 - Python **3.8 ou superior**
 - Bibliotecas Python:
   - `pandas`
