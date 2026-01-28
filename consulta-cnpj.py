@@ -104,8 +104,7 @@ def main():
 
         resultado = consultar_cnpj_com_backoff(cnpj)
         resultados.append(resultado)
-
-        # Delay normal entre CNPJs válidos
+        
         time.sleep(DELAY_BASE)
 
     df_saida = pd.DataFrame(resultados)
@@ -116,4 +115,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
