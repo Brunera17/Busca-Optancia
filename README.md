@@ -90,24 +90,18 @@ pip install pandas requests openpyxl
 ---
 ## ⚠️ Observações Importantes
 
-  A API utilizada (ReceitaWS) possui limite de requisições
-
-  O script aplica atrasos automáticos para evitar bloqueios
-
-  CNPJs inválidos são ignorados
-
-  Em caso de erro de rede ou API, o script tenta novamente
+ - A API utilizada (ReceitaWS) possui limite de requisições
+ - O script aplica atrasos automáticos para evitar bloqueios
+ - CNPJs inválidos são ignorados
+ - Em caso de erro de rede ou API, o script tenta novamente
 
 ---
 ## 📈 Possíveis Melhorias Futuras
 
-  Suporte a API paga (maior volume de consultas)
-
-  Interface gráfica
-
-  Log em arquivo
-
-  Paralelismo controlado
+ - Suporte a API paga (maior volume de consultas)
+ - Interface gráfica
+ - Log em arquivo
+ - Paralelismo controlado
 
 ---
 ## 📄 Licença
